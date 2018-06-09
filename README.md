@@ -8,4 +8,6 @@ Inspired by: https://lifehacker.com/learn-the-basics-of-color-theory-to-know-wha
 $ npm run start # or yarn start
 ```
 
-Open index.html in your browser.
+Open your browser and type `localhost:8000` into the address bar.
+
+Refresh to get different combinations.
