@@ -1,0 +1,10 @@
+{
+  "author": "nl253 <nl253@kent.ac.uk>",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "D3",
+  "scripts": {
+    "start": "python3 -m http.server"
+  },
+  "version": "1.0.0"
+}
