@@ -18,10 +18,11 @@ class ColorschemeGenerator {
    * @param {string} scheme
    * @param {number} startHue
    */
-  constructor(scheme = 'triadic', startHue = Math.max(10, Math.floor(Math.random() * 360))) {
+  constructor(scheme = 'triadic', startHue = Math.max(15, Math.floor(Math.random() * 330))) { // avoid extremes - go between 15 and 330 (normally 0 - 360)
     this.scheme = scheme;
 
     this.hue = this.startHue = startHue;
+    // avoid too dark and too bright - go between 30% and 80%
     this.lightness = Math.max(30, Math.floor(Math.random() * 80));
     this.saturation = Math.max(30, Math.floor(Math.random() * 80));
 
